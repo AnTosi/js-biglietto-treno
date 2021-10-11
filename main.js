@@ -1,7 +1,7 @@
-const km = prompt("Quanti chilometri devi percorrere?");
+const km = parseInt(prompt("Quanti chilometri devi percorrere?"));
 console.log(km);
 
-const age = prompt("Quanti anni hai?");
+const age = parseInt(prompt("Quanti anni hai?"));
 console.log(age);
 
 var basePrice = (km * 0.21);
