@@ -21,4 +21,6 @@ if (age >= 18 && age <= 65) {
 
 var finalPrice = parseFloat(finalPrice).toFixed(2);
 
-console.log(finalPrice)
+console.log(finalPrice + " €")
+
+document.getElementById("ticketCost").innerHTML = "Il costo del tuo biglietto è di " + finalPrice + " €";
